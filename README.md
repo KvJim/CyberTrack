@@ -1,42 +1,29 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-
 # CyberTrack
 
-Sistema de escritorio para gestionar proyectos de TI y laboratorios de
-ciberseguridad.
+Sistema de escritorio para gestionar proyectos de TI y laboratorios de ciberseguridad.
 
-> Estado: en desarrollo (fase de diseño completada)
+> Estado: implementación funcional inicial (Avance 2).
 
-## Funcionalidades previstas
-- Registro e inicio de sesión de usuarios
-- Gestión de proyectos y laboratorios (CRUD)
-- Notas, recursos y herramientas por proyecto
-- Colaboradores con permisos limitados
-- Historial automático de cambios (solo lectura)
-- Administración de usuarios y catálogos
-- Servidor concurrente que atiende a varios clientes
+## Funcionalidades implementadas
+
+- Registro e inicio de sesión de usuarios.
+- Gestión de proyectos y laboratorios (creación, consulta, actualización y eliminación).
+- Clasificación de proyectos por categoría y prioridad.
+- Actualización del estado de los proyectos.
+- Registro de resultados de laboratorios.
+- Control de acceso según roles de usuario.
+- Validación de permisos para modificar y eliminar registros.
+- Interfaz gráfica desarrollada con Java Swing.
+- Comunicación cliente-servidor mediante sockets TCP.
+- Atención concurrente de clientes mediante hilos.
+- Persistencia de datos mediante serialización de objetos.
 
 ## Tecnologías
-Java · Swing · Sockets · Hilos · MySQL
+
+Java · Swing · Sockets TCP · Multihilos · Serialización de objetos · Git
 
 ## Documentación
-- [Diagrama de clases](docs/diagrama-clases.png)
-- [Historias de usuario](docs/historias-usuario.md)
-- [Prototipos de interfaz](docs/prototipos/)
+
+- [Diagrama de clases](https://github.com/KvJim/CyberTrack/blob/main/docs/diagrama-clases.png)
+- [Historias de usuario](https://github.com/KvJim/CyberTrack/blob/main/docs/historias-usuario.md)
+- [Prototipos de interfaz](https://github.com/KvJim/CyberTrack/tree/main/docs/prototipos)
